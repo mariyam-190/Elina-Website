@@ -1,0 +1,344 @@
+body {
+	background-color: #eaecec;
+	color: white;
+}
+
+.clr {
+	color: #12bfa5;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* header start*/
+.header {
+	padding-top: 150px;
+	background: url(../img/depth-of-field-leaves-sunlight-215511.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 150;
+}
+
+.logo {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	margin-top: 200px;
+	margin-left: 100px;
+	font-weight: 800;
+	font-size: 70px;
+}
+
+.logo:hover {
+	color: #12bfa5;
+}
+
+.navbar-light .navbar-toggler {
+	color: white !important;
+	border-color: white;
+	font-size: 2.8rem;
+	background-color: #12bfa5;
+	border: 1px solid white;
+}
+
+.navbar {
+	position: relative;
+	top: -210px;
+	right: -593px;
+
+}
+
+.menu {
+	margin-top: 0px;
+	font-size: 18px;
+	left: 220px;
+	color: white;
+}
+
+.ulmenu {
+	padding-right: 100px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+li a {
+	color: white !important;
+}
+
+.navbar-nav {
+	color: white;
+}
+
+.lead {
+	font-weight: bold;
+	font-size: 90px;
+	margin-left: 140px;
+	margin-top: -66px;
+}
+
+.head {
+	font-size: 29px;
+	text-transform: uppercase;
+	margin-left: 100px;
+}
+
+.butt {
+	margin-top: 20px;
+	margin-left: 132px;
+	background-color: #12bfa5;
+	color: white;
+	border-radius: 50px;
+	padding: 10px 50px;
+	border: none;
+}
+
+/* header end*/
+
+/* Second part start*/
+
+.second {
+	border-bottom: 20px solid white;
+	height: 510px;
+	padding: 70px 0px;
+}
+
+.fapositon {
+	margin: 40px 0px;
+
+}
+
+.second h1 {
+	color: #363535;
+	font-size: 23px;
+}
+
+.second h1:after {
+	background-color: #dfdede;
+	content: '';
+	display: block;
+	width: 300px;
+	height: 2px;
+	margin: 30px;
+
+}
+
+.second p {
+	color: #908e8e;
+	font-size: 18px;
+}
+
+/* Second part end*/
+
+/* Third part start*/
+.third {
+	height: 710px;
+	background-color: white;
+	padding: 70px 0;
+}
+
+.third img {
+	margin-left: 62px;
+}
+
+.third h1 {
+	color: #363535;
+	font-size: 23px;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.third h1:after {
+	background-color: #dfdede;
+	content: '';
+	display: block;
+	width: 400px;
+	height: 2px;
+	margin: 30px 72px;
+
+}
+
+.third p {
+	color: #908e8e;
+	font-size: 18px;
+	text-align: justify;
+	padding-left: 19px;
+}
+
+.third button {
+	margin-left: 177px;
+}
+
+
+
+/* Third part end*/
+
+/* fourth part start*/
+.fourth {
+	height: 300px;
+	background-color: #12bfa5;
+}
+
+.fourth h1 {
+
+	font-size: 25px;
+}
+
+.iconf {
+	padding-left: 330px;
+	padding-top: 49px;
+	font-size: 10px;
+}
+
+.fourth h1:after {
+	background-color: #dfdede;
+	content: '';
+	display: block;
+	width: 500px;
+	height: 1px;
+	margin-top: 30px;
+	margin-left: 430px;
+	text-align: center;
+}
+
+.comlogo {
+	margin-top: 70px;
+	font-size: 30px;
+}
+
+/* fourth part end*/
+/* footer start*/
+.footer {
+	background-color: white;
+	height: 80px;
+	color: #dfdede;
+	padding-top: 30px;
+}
+
+.icon {
+	padding-left: 15px;
+}
+
+.pos {
+	padding-left: 50px;
+}
+
+span {
+	color: gray;
+}
+
+.footer p {
+	color: gray;
+}
+
+.s-m a {
+	color: gray !important;
+}
+
+
+/* footer end*/
+/* media query */
+
+@media (max-width:991px) {
+	.header {
+		height: 100vh;
+	}
+
+	.navbar {
+		position: absolute;
+		top: 80px;
+	}
+
+
+	.logo {
+		padding-top: 80px;
+		font-weight: 800;
+		font-size: 90px;
+		margin-left: -10px;
+	}
+
+	.lead {
+		margin-top: 60px;
+		margin-bottom: 90px;
+		margin-left: -10px;
+	}
+
+	.header .butt {
+		margin-top: 170px;
+		padding: 40px 80px;
+		border: none;
+		margin-left: 0;
+		font-size: 25px;
+	}
+
+	.head {
+		font-size: 29px;
+		text-transform: uppercase;
+		margin-left: -10px;
+	}
+
+	/* Second part start*/
+
+	.second {
+		height: 1010px;
+		;
+	}
+
+
+	/* Second part end*/
+
+	/* Third part start*/
+	.third {
+		height: 1160px;
+		background-color: white;
+		padding: 70px 0;
+		text-align: center;
+	}
+
+	.third img {
+		margin-left: auto;
+	}
+
+	.third h1:after {
+		margin: 30px 140px;
+
+	}
+
+	.third p {
+		text-align: center;
+
+	}
+
+	.third button {
+		margin-left: -28px;
+		margin-bottom: 80px;
+	}
+
+	/* Third part end*/
+	/* fourth part start*/
+
+	.iconf {
+		padding-left: 120px;
+
+	}
+
+	.fourth h1:after {
+		margin-left: 250px;
+	}
+
+	/* fourth part end*/
+}
